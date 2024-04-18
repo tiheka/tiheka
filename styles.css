@@ -1,0 +1,65 @@
+body{
+	background-color:rgb(128,128,128)
+}
+.header {
+	background-color: #a0a0a0;
+	font-size: 25px;
+}
+.footer {
+	background-color: #606060;
+	font-size: 15px;
+}
+p {
+	color: blue;
+	font-size: 20px;
+	word-spacing: 2px;
+}
+li {
+	color: #0000ff;
+	font-size: 20px;
+}
+h1 {
+	color: red;
+	font-size: 40px;
+	font-family: verdana, sans-serif;
+	text-transform: uppercase;
+	text-shadow: 2px 4px black;
+}
+h2 {
+	color: #ff0000;
+	font-size: 30px;
+	font-family: verdana, sans-serif;
+	text-transform: uppercase;
+	text-shadow: 2px 3px #000000;
+}
+/* unvisited link */
+a:link {
+  color: #c00000;
+}
+
+/* visited link */
+a:visited {
+  color: #800040;
+}
+
+/* mouse over link */
+a:hover {
+  color: #0000c0;
+}
+
+/* selected link */
+a:active {
+  color: #400080;
+}
+button {
+    align-items: center;
+    background-color: #c00000;
+    font-size: 25px;
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    border-color: black;
+}
+img {
+	width: 200px;
+}
