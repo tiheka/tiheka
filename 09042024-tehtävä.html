@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tehtävä</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="header">
+	<img src="img/koodari-19.png">
+	<h1>system of a down-chop suey</h1>
+	</header>
+   	<video id="video">
+  		<source src="video.mp4" type="video/mp4">
+	</video>
+	<button onclick="playPause()">Play/Pause</button> 
+	<a href="javascript/index.html">back to "things i've done</a>
+	<script> 
+		var myVideo = document.getElementById("video"); 
+
+		function playPause() { 
+ 		if (myVideo.paused) 
+    		myVideo.play(); 
+ 		else 
+   		myVideo.pause(); 
+		}
+	</script>
+</body>
+</html>
